@@ -50,7 +50,7 @@ function changeCurrency(){
     const currencyImage = document.querySelector(".currency-img")
     
     if(currencySelect.value == "dolar") {
-        currencyName.innerHTML = "Dólar Americano"
+        currencyName.innerHTML = "Dólar americano"
         currencyImage.src = "./assets/dolar.png"
     }
     
@@ -60,12 +60,12 @@ function changeCurrency(){
     }
 
     if(currencySelect.value == "libra") {
-        currencyName.innerHTML = "Libras Esterlinas"
+        currencyName.innerHTML = "Libra"
         currencyImage.src = "./assets/libra.png"
     }
 
     if(currencySelect.value == "bitcoin") {
-        currencyName.innerHTML = "Bitcoins"
+        currencyName.innerHTML = "Bitcoin"
         currencyImage.src = "./assets/bitcoin.png"
     }
     convertValues()
