@@ -7,14 +7,15 @@
 }
 
 body {
-    background-color: #347e59;
+    background: rgb(255,183,155);
+    background: linear-gradient(180deg, rgba(255,183,155,1) 0%, rgba(16,71,44,1) 60%);
 }
 
 .logo {
     width: 230px;
     margin: 20px auto;
     display: block;
-    border: 3px solid #10472c;
+    border: 2px dotted #10472c;
     border-radius: 20px;
 }
 
@@ -24,8 +25,7 @@ main {
     background-color: #f4f4f4;
     padding: 44px 24px 23px;
     margin: 0 auto 40px;
-    border: 2px solid #10472c;
-    border-radius: 20px;
+    border: 3px solid #10472c;
 }
 
 label {
@@ -36,7 +36,7 @@ label {
 
 select, input {
     background: #ffffff;
-    border: 1px solid #BBBBBB;
+    border: 1px solid #10472c;
     border-radius: 4px;
     height: 48px;
     width: 100%;
@@ -70,7 +70,7 @@ button:active {
 }
 
 section {
-    border: 1px solid #772FD3;
+    border: 1px solid #10472c;
     border-radius: 20px;
     margin-top: 36px;
     padding: 12px;
