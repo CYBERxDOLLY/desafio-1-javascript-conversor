@@ -7,15 +7,14 @@
 }
 
 body {
-    background: rgb(255,183,155);
-    background: linear-gradient(180deg, rgba(255,183,155,1) 0%, rgba(16,71,44,1) 60%);
+    background: rgb(198,148,49);
+    background: linear-gradient(180deg, rgba(198,148,49,1) 0%, rgba(16,71,44,1) 35%);
 }
 
 .logo {
-    width: 230px;
+    width: 220px;
     margin: 20px auto;
     display: block;
-    border: 2px dotted #10472c;
     border-radius: 20px;
 }
 
@@ -25,7 +24,7 @@ main {
     background-color: #f4f4f4;
     padding: 44px 24px 23px;
     margin: 0 auto 40px;
-    border: 3px solid #10472c;
+    border: 2px solid #0a063b;
 }
 
 label {
@@ -59,14 +58,17 @@ button {
     font-weight: 700;
     cursor: pointer;
     box-shadow: 6px 6px 10px #347e59;
+    text-transform: uppercase;
 }
 
 button:hover {
     opacity: .8;
+    font-size: 20px;
 }
 
 button:active {
     opacity: .5;
+    font-size: 18px;
 }
 
 section {

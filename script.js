@@ -53,22 +53,22 @@ function changeCurrency(){
     
     if(currencySelect.value == "dolar") {
         currencyName.innerHTML = "Dólar americano" // troca o nome da moeda
-        currencyImage.src = "./assets/dolar.png" // troca a imagem da moeda
+        currencyImage.src = "./assets/img/dolar.png" // troca a imagem da moeda
     }
     
     if(currencySelect.value == "euro") {
         currencyName.innerHTML = "Euro"
-        currencyImage.src = "./assets/euro.png"
+        currencyImage.src = "./assets/img/euro.png"
     }
 
     if(currencySelect.value == "libra") {
         currencyName.innerHTML = "Libra"
-        currencyImage.src = "./assets/libra.png"
+        currencyImage.src = "./assets/img/libra.png"
     }
 
     if(currencySelect.value == "bitcoin") {
         currencyName.innerHTML = "Bitcoin"
-        currencyImage.src = "./assets/bitcoin.png"
+        currencyImage.src = "./assets/img/bitcoin.png"
     }
     convertValues() // chama a função principal para ser aplicada após mudar as moedas do select
 }
