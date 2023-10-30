@@ -71,5 +71,10 @@ function changeCurrency(){
     convertValues()
 }
 
-currencySelect.addEventListener('change', changeCurrency)
+function playAudio() {
+    const audio = document.getElementById("myAudio")
+    audio.play()
+}
+
+currencySelect.addEventListener("change", changeCurrency)
 convertButton.addEventListener("click", convertValues)
