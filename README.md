@@ -10,6 +10,6 @@
 <p align=center>Observação: Ainda não implementado para ajustar de acordo com a cotação real do dia.</p>
 
 <div align=center>
-  <a href="https://cyberxdolly.github.io/desafio-1-javascript-conversor/"><h2>Clica em mim ou na imagem!</h2></a>
-<a href="https://cyberxdolly.github.io/desafio-1-javascript-conversor/"><img src="https://github.com/CYBERxDOLLY/desafio-1-javascript-conversor/blob/main/assets/conversor.png?raw=true"></a>
+  <h2>Clique na imagem!</h2>
+<a href="https://cyberxdolly.github.io/desafio-1-javascript-conversor/"><img src="https://github.com/CYBERxDOLLY/desafio-1-javascript-conversor/blob/main/assets/img/conversor.png?raw=true"></a>
 </div>
