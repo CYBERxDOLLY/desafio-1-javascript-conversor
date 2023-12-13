@@ -1,6 +1,6 @@
 <h1 align=center>Desafio JavaScript - Conversor de Moedas</h1>
 <br>
-<p align=center>Projeto de um conversor de moedas, convertendo R$ para US$, €, £ e ₿ até o momento. Consumo de uma API para valores dinâmicos.
+<p align=center>Projeto de um conversor de moedas, convertendo R$ para US$, €, £ e ₿ até o momento. Consumo da <a href="https://docs.awesomeapi.com.br/api-de-moedas">Awesome API</a> para valores dinâmicos.
   <br>
   Desenvolvido durante as aulas lá no <a href="https://rodolfomori.com.br/devclub/" target="_blank">Dev Club</a></p>
 <div align=center>
